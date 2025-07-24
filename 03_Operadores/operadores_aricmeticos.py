@@ -17,5 +17,5 @@ expo = 12**5
 print(expo)
 
 #Resto o Modulo 
-resto = 12 % 5
+resto = 18 % 3
 print(resto)

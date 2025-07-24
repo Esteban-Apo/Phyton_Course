@@ -142,3 +142,15 @@ else:
 finally:
     # Código a ejecutar siempre, independientemente de si se produce una excepción o no
     print("Esta línea se ejecutará siempre.")
+
+
+""" DIFICULTAD EXTRA (opcional):
+ * Crea un programa que imprima por consola todos los números comprendidos
+ * entre 10 y 55 (incluidos), pares, y que no son ni el 16 ni múltiplos de 3.s"""
+
+for i in range (10, 56): #Rango de valores entre 10 y 56
+    modulo = i % 3 #Sacamos el resto 
+    if modulo != 0 and i != 16: #SI el resto es cero y a su vez i es diferente de 16, se imprime el valor
+        print(i)
+
+

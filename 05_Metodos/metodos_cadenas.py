@@ -2,6 +2,7 @@
 cadena1 = "Hola mi nombre es esteban"
 cadena2 = "Holalalla"
 cadena3 = "232324"
+cadena_comas = "hola,como estas,tamo,laura"
 
 #Convierte en mayusculas
 mayorC = cadena1.upper()
@@ -27,3 +28,10 @@ is_alfa_numerico = cadena2.isalpha()
 #Busca un valor de una cadena, devuelve la cantidad de veces que este valor se repite
 counter_character = cadena2.count("a")
 print(counter_character)
+
+#Remplaza un valor de una cadena, por otro valor
+cadena_nueva = cadena1.replace("esteban", "Laura")
+print(cadena_nueva)
+
+#Separa los valores dados, en base a un caracter dado
+cadena_separada = cadena_comas
