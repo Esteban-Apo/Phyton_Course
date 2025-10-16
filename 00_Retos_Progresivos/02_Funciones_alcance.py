@@ -20,3 +20,10 @@
  * Presta especial atención a la sintaxis que debes utilizar en cada uno de los casos.
  * Cada lenguaje sigue una convenciones que debes de respetar para que el código se entienda.
  */"""
+
+def with_out_parameters():
+    print("Funcion numero 1")
+
+def with_parameters(name):
+    print ("Hello", name)
+    
