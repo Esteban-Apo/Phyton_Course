@@ -20,10 +20,48 @@
  * Presta especial atención a la sintaxis que debes utilizar en cada uno de los casos.
  * Cada lenguaje sigue una convenciones que debes de respetar para que el código se entienda.
  */"""
-
+# Sin parámetros ni retorno, con uno o varios parámetros, con retorno
 def with_out_parameters():
     print("Funcion numero 1")
 
 def with_parameters(name):
     print ("Hello", name)
-    
+
+def with_return(a, b): 
+    resultado = a + b
+    return resultado
+# Comprueba si puedes crear funciones dentro de funciones
+def crear_multiplicador(n): #Funciónes anidadas 
+    def multiplicar(x):
+        return x * n  # Usa la variable de la función externa
+    return multiplicar
+
+# Utiliza algún ejemplo de funciones ya creadas en el lenguaje.
+def integrated_functions(): 
+    aiter()
+    all()
+    anext()
+    any()
+    ascii()
+
+# Pon a prueba el concepto de variable LOCAL y GLOBAL
+y = 15
+def local_variable(x): 
+    x = 10
+
+#Ejercicio conocido como Fizz Buzz
+def printf_numbers (text_one, text_two) -> int: 
+    count = 0
+    for number in range(1, 101):
+        if number % 3 == 0 and number % 5 == 0:
+            print(text_one + text_two)
+        elif number % 3 == 0:
+            print(text_one)
+        elif number % 5 == 0:
+            print(text_two)
+        else:
+            print(number)
+            count += 1
+    return count
+
+print(printf_numbers("esteban", "Laura"))
