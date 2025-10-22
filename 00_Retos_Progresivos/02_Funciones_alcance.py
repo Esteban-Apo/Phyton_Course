@@ -50,10 +50,10 @@ def local_variable(x):
     x = 10
 
 #Ejercicio conocido como Fizz Buzz
-def printf_numbers (text_one, text_two) -> int: 
+def printf_numbers (text_one, text_two) -> int: #se asume que se retornara un valor entero 
     count = 0
     for number in range(1, 101):
-        if number % 3 == 0 and number % 5 == 0:
+        if number % 3 == 0 and number % 5 == 0: #Valores primos de 3 y a su vez de 5
             print(text_one + text_two)
         elif number % 3 == 0:
             print(text_one)
