@@ -10,21 +10,21 @@ frutas.extend(["Laurel", "Naraja"])
 print(frutas)
 
 #Inserta un valor en indice en especifico 
-frutas.insert(3, "Fresa")
-print(frutas)
-
-#Elimita en base al contenido de la lista
-frutas.remove("Manzana")
+frutas.insert(4, "Fresa")
 print(frutas)
 
 
-#Elimina en base al indice de la lista
-frutas.pop(0)
+
+#Copia el valor de otro indice 
+frutas[1] = frutas[4]
 print(frutas)
 
 #Organiza alfabeticamente los valores de una lista, el metodo tiene en cuenta las mayusculas iniciales y no soporta numeros.
 frutas.sort()
 print(frutas)
+
+#Longitud de la lista
+print("la longitud de la lista es: ", len(frutas))
 
 #Retorna el indice de un valor dado 
 indice = frutas.index("Fresa")
@@ -38,6 +38,16 @@ print(numeros_y_booleanos)
 numeros_y_booleanos.sort(reverse=True)
 print(numeros_y_booleanos)
 
+#Elimita en base al contenido de la lista
+frutas.remove("Manzana")
+print(frutas)
+
+
+#Elimina en base al indice de la lista
+frutas.pop(0)
+print(frutas)
+
 #Elimina todos los elementos
 frutas.clear()
 print(frutas)
+

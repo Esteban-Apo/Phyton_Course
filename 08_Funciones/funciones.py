@@ -17,3 +17,5 @@ def introduction(first_name, last_name):
 introduction(first_name = "James", last_name = "Bond")
 introduction(last_name = "Skywalker", first_name = "Luke")
 
+#Ejemplos de uso de Funciones
+
