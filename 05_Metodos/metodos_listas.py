@@ -1,3 +1,5 @@
+#el nombre de una lista es el nombre de una ubicación de memoria donde se almacena la lista.
+
 frutas = ["Manzana", "Kiwi", "Manzana verde", "Papaya", "Banano"]
 numeros_y_booleanos = [1,2,5,32,55,1,3243, True, 3,43, False]
 
@@ -50,4 +52,10 @@ print(frutas)
 #Elimina todos los elementos
 frutas.clear()
 print(frutas)
+
+#Copiar el contenido de una lista a otra lista  (y no solo su nombre, lo que genera que se guarden en el mismo bloque de almacenamiento)
+list_1 = [1]
+list_2 = list_1[:]
+list_1[0] = 2
+print(list_2)
 
