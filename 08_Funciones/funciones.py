@@ -41,3 +41,32 @@ for i in range(len(test_data)):
 
 
 
+def largest_value():
+    my_list = [7, 3, 11, 5, 1, 9, 7, 15, 13]
+    largest = my_list[0]
+
+    for i in range(1, len(my_list)):
+        if my_list[i] > largest:
+            largest = my_list[i]
+
+    print(largest)
+
+#largest_value()
+
+def find_number():
+    my_list02 = [2, 4, 3, 5, 11, 5]
+    to_find = 5
+    found = False 
+
+    for i in range (len(my_list02)):
+        if to_find == my_list02[i]:
+            found = True
+            break
+    if found:
+        print(f"El numero encontrado fue:", my_list02[i], "en el indice: ", i )
+    else: 
+        print("Indice no encontrado")
+        
+#find_number()
+
+

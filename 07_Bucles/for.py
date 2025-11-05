@@ -10,8 +10,6 @@ def loop_for():
     for i in range(10):
         print("El valor de i es", i)
 
-
-
 def mississippi_time():
     import time #Importar librería para casos muy concretos (uso de la librería solo en una función )
 
@@ -44,7 +42,25 @@ def break_and_continue():
         print("Dentro del bucle.", i)
     print("Fuera del bucle.")
 
+def numbers_not_repit():
+    my_list03 = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+    print(len(my_list03))
+    for i in range (len(my_list03)):
+        if my_list03[i] == my_list03[0]: 
+            del my_list03[i]
+    
+    
+    print(my_list03)
 
-loop_for()
-mississippi_time()
-break_and_continue()
+
+
+    print("La lista con elementos únicos:")
+    print(my_list03)
+
+
+
+#loop_for()
+#mississippi_time()
+#break_and_continue()
+numbers_not_repit()
+
