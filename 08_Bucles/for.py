@@ -43,24 +43,18 @@ def break_and_continue():
     print("Fuera del bucle.")
 
 def numbers_not_repit():
+    
     my_list03 = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
-    print(len(my_list03))
-    for i in range (len(my_list03)):
-        if my_list03[i] == my_list03[0]: 
-            del my_list03[i]
+    # el Metodo Fromkeys convierte los valores en llaves, por ende tiene que ser valores unicos 
+    #Lo que permite eliminar los valores duplicados
     
-    
-    print(my_list03)
-
-
-
+    my_list03 = list(dict.fromkeys(my_list03)) 
     print("La lista con elementos únicos:")
     print(my_list03)
-
-
 
 #loop_for()
 #mississippi_time()
 #break_and_continue()
 numbers_not_repit()
+
 
