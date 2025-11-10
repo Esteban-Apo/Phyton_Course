@@ -55,6 +55,8 @@ def numbers_not_repit():
 #loop_for()
 #mississippi_time()
 #break_and_continue()
-numbers_not_repit()
+#numbers_not_repit()
 
+my_list = [[0, 1, 2, 3] for i in range(2)]
+print(my_list[2][0])
 

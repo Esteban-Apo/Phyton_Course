@@ -32,3 +32,22 @@ def notas_estudiantes():
 
 
 #Aplicaciónes avanzadas de las listas 
+
+#Listas en Rebandas y  indices negativos 
+def negative_list():
+    my_negative_list = [1,2,3,4,5,6]
+    my_negative_list[-1]   # 6  (último)
+    my_negative_list[-2]   # 5  (penúltimo)
+    print(my_negative_list[-6]) #Primer valor, Ultimo indice negativo 
+
+#Slices (Rebanadas), permite sub-listar u obtener una parte de una lista. 
+def slices():
+    my_list = [10, 20, 30, 40, 50]
+    print(my_list[1:4]) #->[20, 30, 40]
+
+#slices()
+def slices_with_negative_indices():
+    my_list = [10, 20, 30, 40, 50]
+    print(my_list[-5:-2]) #[10, 20, 30]
+
+slices_with_negative_indices()
