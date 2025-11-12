@@ -35,3 +35,27 @@ print(cadena_nueva)
 
 #Separa los valores dados, en base a un caracter dado
 cadena_separada = cadena_comas
+
+my_string = "Hola "
+my_string02 = "Phyton"
+
+#Longitud 
+print(len(my_string))
+
+#Concatenación 
+print(my_string + " " + my_string02 + "!")
+
+#Repetición 
+print(my_string * 4)
+
+#Indexación
+print(my_string[0])
+
+#Slices (Rebanadas)
+print(my_string02[2:6])  #[inicio:final] -> se ejecuta un valor antes del final (-1)
+print(my_string02[1:]) #no colocar final es igual a ejecutar hasta el ultimo caracter o valor
+print(my_string02[:5]) #No colocar inicio es igual a ejecutar el valor desde el primer caracter o valor
+
+#Busqueda
+print("P" in my_string02)
+print("K" in my_string02)
