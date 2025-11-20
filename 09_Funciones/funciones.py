@@ -67,6 +67,18 @@ def find_number():
     else: 
         print("Indice no encontrado")
         
-#find_number()
+#Triangulos 
+def is_a_triangle(a,b,c):
+    if a + b <= c:
+        return False
+    if a + c <= b:
+        return False
+    if c + b <= a:
+        return False
+    return True 
+    
+
+print(is_a_triangle(1, 1, 1))
+print(is_a_triangle(1, 1, 3))
 
 
