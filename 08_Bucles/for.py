@@ -43,6 +43,7 @@ def break_and_continue():
     print("Fuera del bucle.")
 
 def numbers_not_repit():
+
     
     my_list03 = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
     # el Metodo Fromkeys convierte los valores en llaves, por ende tiene que ser valores unicos 
@@ -52,11 +53,46 @@ def numbers_not_repit():
     print("La lista con elementos únicos:")
     print(my_list03)
 
+def exercise_01():
+    my_list = [1, 2]
+
+    for v in range(2): #0, 1
+        my_list.insert(-1, my_list[v])
+
+    print(my_list)
+
+x = 1 // 5 + 1 / 5
+print(x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 1, 1, 2
 #loop_for()
 #mississippi_time()
 #break_and_continue()
 #numbers_not_repit()
+#exercise_01()
 
-my_list = [[0, 1, 2, 3] for i in range(2)]
-print(my_list[2][0])
+
+
+
+
+
+
 
